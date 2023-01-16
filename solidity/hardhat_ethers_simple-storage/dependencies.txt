@@ -1,0 +1,28 @@
+To compile solidity contracts, install solc-js
+[#corepack enable]  --> yarn you be available
+# yarn add solc 
+#yarn add solc@0.8.7-fixed
+--> could be installed using npm also
+
+Install ethers
+
+#yarn add ethers
+
+
+Install Ganach
+
+
+Compile a contract 
+#yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
+
+Install dotenv  (.env manager)
+#yarn add dotenv
+
+
+Install prettier for solidity & js  ( nmp package)
+
+yarn add prettier prettier-plugin-solidity
+
+
+
+
